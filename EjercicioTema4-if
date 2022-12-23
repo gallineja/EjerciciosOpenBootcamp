@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args)
+    {
+        var numeroIf = -3;
+
+        if (numeroIf == 0) {
+            System.out.println("El numero es CERO");
+        }
+        else if (numeroIf > 0) {
+            System.out.println("El numero es mayor que CERO");
+        }
+        else{
+            System.out.println("El numero es menor que CERO");
+        }
+    }
+}
